@@ -1,0 +1,26 @@
+{
+  "name": "stylus-inline-webpack",
+  "version": "1.0.0",
+  "description": "Stylus plugin for inlining images",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "stylus",
+    "webpack",
+    "svg",
+    "encoding"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivn-cote/stylus-inline-webpack.git"
+  },
+  "author": "Ivan Kotov <kotovivan@gmail.com>",
+  "license": "MIT",
+  "dependencies": {},
+  "bugs": {
+    "url": "https://github.com/ivn-cote/stylus-inline-webpack/issues"
+  },
+  "homepage": "https://github.com/ivn-cote/stylus-inline-webpack#readme"
+}
