@@ -6,7 +6,7 @@ var
 
 module.exports = function(options) {
   var
-    stylusUrlFn = stylus.url.apply(this, options),
+    stylusUrlFn = stylus.url.apply(this, arguments),
     sizeLimit = options.limit || 30000;
 
   function inlineImg(url) {
@@ -25,7 +25,7 @@ module.exports = function(options) {
 
     // Not supported
     if (extname(localUrl.href) !== '.svg')
-      return stylusUrlFn.apply(this, url);
+      return stylusUrlFn.apply(this, arguments);
 
     var literal = new stylus.nodes.Literal('url("' + localUrl.href + '")')
 
